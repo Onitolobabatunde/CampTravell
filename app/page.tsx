@@ -1,5 +1,20 @@
-import Image from "next/image";
+import React from 'react'
+import Camp from '@/components/Camp'
+import Guide from '@/components/Guide'
+import Features from '@/components/Features'
+import GetApp from '@/components/GetApp'
 
-export default function Home() {
-  return <h1 className="text-bold text-teal-500">Hello world</h1>;
+
+const Home = () => {
+  return (
+    <>
+  <Home />
+    <Camp />
+    <Guide />
+    <Features />
+    <GetApp />
+  </>
+  )
 }
+
+export default Home;
